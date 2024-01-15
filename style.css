@@ -1,0 +1,341 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- header ----- */
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 75px;
+}
+
+/* --- nav --- */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 50px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+
+#user {
+    margin-left: auto;
+}
+
+#user a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+    color: #111;
+}
+
+.icon img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.signup-btn {
+    padding: 8px 20px;
+    border: 1px solid #a2c3ff;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #312dff;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+/* ----- body ----- */
+
+/* --- banner --- */
+.container {
+    display: flex;
+    margin: 0;
+}
+
+.session {
+    flex: 1;
+    padding: 20px;
+    margin: 0;
+    margin-left: 80px;
+}
+
+.session h1 {
+    color: #900dbc;
+    font-size: 40px;
+}
+
+.session h3 {
+    font-size: 15px;
+    color: #8b8b8b;
+}
+
+.btn-discover {
+    padding: 8px 25px;
+    border: 1px solid #a2c3ff;
+    border-radius: 10px;
+    background-color: #3460cf;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 80px;
+    font-size: 18px;
+}
+
+.session img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+}
+
+.img {
+    text-align: center;
+    margin-right: 100px;
+    top: 70px;
+}
+
+h2 {
+    color: #900dbc;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+/* --- card --- */
+.card-container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 7px;
+    overflow: hidden;
+    color: #8b8b8b;
+}
+
+.card h2 {
+    color: #900dbc;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.text-info {
+    padding: 50px;
+    margin-left: 465px;
+    color: #300a34;
+}
+
+/* --- car --- */
+
+.img-linha {
+    padding: 100px;
+    margin-left: 350px;
+    bottom: 0%;
+}
+
+.car {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.car img {
+    max-width: 30%;
+    height: auto;
+    padding: 0;
+    display: block;
+}
+
+.text-car {
+    flex: 1;
+    margin: 50px;
+    margin-left: 100px;
+    bottom: 50px;
+    color: #8b8b8b;
+}
+
+.text-car h4 {
+    color: #312dff;
+}
+
+/* --- commitment --- */
+.commitment {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.commitment-text {
+    flex: 1;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.commitment-text {
+    color: #900dbc;
+}
+
+.commitment-text p {
+    color: #8b8b8b;
+}
+
+.commitment-text h4 {
+    color: #4258fb;
+}
+
+.commitment img {
+    display: block;
+    height: auto;
+    max-width: 30%;
+    margin-left: 15px;
+}
+
+/* --- download --- */
+.download {
+    background-image: url('imagens/bg03.png');
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    padding: 270px;
+    margin-left: 40px;
+}
+
+.download h3 {
+    font-size: 30px;
+    color: #900dbc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.btn-claystore, .btn-playapp {
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+/* --- register --- */
+.register {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.info {
+    font-size: 20px;
+}
+
+.info h4 {
+    color: #900dbc;
+}
+
+.info, .info-img {
+    flex: 1;
+    max-width: 150px;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-img img {
+    max-width: 25%;
+    margin-top: 10px;
+    height: auto;
+}
+
+/* ----- footer ----- */
+footer {
+    padding: 180px;
+    height: auto;
+    text-align: center;
+    background: url('imagens/footer.jpg');
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 250px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.separator {
+    border-top: 1px solid #e1e1e1;
+    margin: 15px 0;
+}
+
+.footer-info {
+    text-align: left;
+    color: #fff;
+}
+
+.footer-icon {
+    text-align: right;
+    font-size: 12px;
+}
+
+.footer-icon a {
+    margin-right: 10px;
+}
